@@ -1,2 +1,2 @@
 # ExposedOnline
-This is just for fun fun. please don't sue
+This is just for fun. Please don't sue
