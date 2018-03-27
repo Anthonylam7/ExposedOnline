@@ -3,6 +3,13 @@
 <strong>Disclaimer:</strong> This is a free, non-profit fan-made game of the popular
 board game "Exposed".
 
+## Table of Content
+* [Introduction](#intro)
+* [How to play](#how-to-play)
+* [Game Basics](#the-game)
+* [Player Actions](#game-actions)
+
+<a name="intro"></a>
 Welcome to <strong>Exposed Online</strong>, a fan made version of the popular board game
 <strong>Exposed</strong>. In this game, you play as a pickpocket who has infiltrated a
 party disguised as a guest. Your objective is to swipe as many valuables as you can hold. 
@@ -11,11 +18,11 @@ art of deception to avoid being caught as you pilfer from unsuspecting party gue
 Of course, eliminating your competition by exposing them along way will make your job much
 easier.
 
-## How to Play
+## <a name="how-to-play"></a>How to Play
 <strong>Objective:</strong> Your goal is to either collect seven valuables or be the 
 only pickpocket not exposed.
 
-### The game:
+### <a name="the-game"></a>Game Basics:
 The game consists of a 4-by-4, 5-by-5, or 6-by-6 tile grid depending on the total number
 of players. Each spot in the grid represents a guest attending the party. Each guest starts
 with at least 1 valuable on them while guests at the corners have 2 valuables. 
@@ -29,7 +36,7 @@ ability of the target is activated giving the player an unique advantage. If any
 targets have zero valuables they are immediately exposed and a new target is assigned.
 
 
-### Actions:
+### <a name="game-actions"></a>Actions:
 Players are able to choose among 1 of 4 actions to take each turn: Move, Steal, Expose, 
 or Snitch.
 
