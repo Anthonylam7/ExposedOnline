@@ -9,7 +9,7 @@ board game "Exposed".
 * [Game Basics](#the-game)
 * [Player Actions](#game-actions)
 
-<a name="intro"></a>
+## <a name="intro"></a>Introduction
 Welcome to <strong>Exposed Online</strong>, a fan made version of the popular board game
 <strong>Exposed</strong>. In this game, you play as a pickpocket who has infiltrated a
 party disguised as a guest. Your objective is to swipe as many valuables as you can hold. 
