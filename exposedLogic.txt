@@ -1,0 +1,79 @@
+This makes the game work without taget abilities for now.
+
+PreWork: Create an init file for card information. This could be JSON and XML
+Specify each card in JSON/XML if the card is restricted to a game player number mode
+
+Every object is accessed by reference (naturally in Java). So if a card property is
+changed in a List, then it will be reflected on all lists that also contain that reference.
+
+Modes: 2 (4x4, 2 targets), 3-4 (5x5, 3 targets), 5-6 (6x6, 4 targets) players
+Ex:
+	<card>
+		<mode>2</mode>
+		<name>x</name>
+		<descr>y</descr>
+	</card>
+
+Card {
+	string name
+	string description
+	bool target
+	bool exposed
+	int xLoc
+	int yLoc
+	int wallets
+	
+	init(name, descr) {
+		initialize name and descr
+	}
+}
+
+Player {
+	int wallets
+	Card card
+	
+	init(card) {
+		initialize card
+	}
+	
+	
+}
+
+
+
+Game {
+	Queue<Card> deck
+	List<Player> players
+	List<Card> cardsOnGrid
+	List<Card> targetCards
+	int boardHeigth
+	int boardWidth
+	
+	init() {
+		- Initialize varialbes
+		- Ask for number of players. Based on this, intialize board dimmensions (read rules for specifications on this)
+		- Go through init file. For each XML/JSON high level taget
+			- if mode corresponds to current game mode
+				- Create card with name and descr
+				- Add to deck
+		- Shuffle deck 
+		- Create players (based on number asked) and give them each the next card on deck (actually poll from deck)
+		- Assign local xLoc and yLoc to 0. This is for coordinate (0,0)
+		- For each card in deck (without polling from deck)
+			- Assign local xLoc and yLoc to card xLoc and yLoc
+			- Assign card's wallet to the initial number of wallet (number of wallets based on whether its corner card or not)
+			- Add card to cardsOnGrid
+			- Carefully increment local xLoc and yLoc such that it stays within the board dimmensions
+		- Shuffle deck again
+		- Poll numTarget (based on game mode) from deck, modify the card's var to true, add card to targetCards list
+	}
+	
+	gameloop() {
+		- Check if there is a winner. Function.
+		- Ask player for action
+		- 
+
+	}	
+	
+	
+}
