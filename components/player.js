@@ -38,7 +38,10 @@ class Player
 
 	set card(instance)
 	{
+		if (!this.card)
+		{
 		this.card = instance;
+		}
 		return this;
 	}
 }
