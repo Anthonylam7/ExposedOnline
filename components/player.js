@@ -5,9 +5,8 @@
 
 class Player
 {
-	constructor(card)
+	constructor()
 	{
-		this.card = card;
 		this.wallets = 0;
 		this.isExposed = false;
 	}
@@ -30,5 +29,16 @@ class Player
 		}
 
 		return this.wallets;
+	}
+
+	get card()
+	{
+		return this.card;
+	}
+
+	set card(instance)
+	{
+		this.card = instance;
+		return this;
 	}
 }
