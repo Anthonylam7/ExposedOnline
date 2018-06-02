@@ -1,0 +1,292 @@
+{
+	"STANDARD": [
+		{
+			"name": "Accountant",
+			"effectName": "Ledger",
+			"effectDesc": "Take up to 3 Wallets from any Guest tile(s) and give them all to 1 Guest tile. The Guest tile you give them to cannot be your own.",
+			"effectBehaviors": [],
+			"numPlayer": 2,
+			"imgName": ""
+		},
+		{
+			"name": "Actor",
+			"effectName": "Cell Phone",
+			"effectDesc": "Use the item of any Mark in the discard pile.",
+			"effectBehaviors": [],
+			"numPlayer": 3,
+			"imgName": ""
+		},
+		{
+			"name": "Architect",
+			"effectName": "Cornerstone",
+			"effectDesc": "Add 1 Wallet from the Lost & Found to the Guest tile in each corner.",
+			"effectBehaviors": [],
+			"numPlayer": 2,
+			"imgName": ""
+		},
+		{
+			"name": "Artist",
+			"effectName": "Masterpiece",
+			"effectDesc": "Choose a Guest tile. Move all Wallets from the Guest tile to the Artist.",
+			"effectBehaviors": [],
+			"numPlayer": 5,
+			"imgName": ""
+		},
+		{
+			"name": "Astronaut",
+			"effectName": "Telescope",
+			"effectDesc": "Draw 4 identity cards, view them, and put them on the bottom of the deck. Each other player draws 1 identity card, views it, and puts it on the bottom of the deck.",
+			"effectBehaviors": [],
+			"numPlayer": 2,
+			"imgName": ""
+		},
+		{
+			"name": "Banker",
+			"effectName": "IOU",
+			"effectDesc": "Put 2 Wallets from the Lost & Found on the Banker and swap his location with any other Guest.",
+			"effectBehaviors": [],
+			"numPlayer": 5,
+			"imgName": ""
+		},
+		{
+			"name": "Captain",
+			"effectName": "Refund",
+			"effectDesc": "Choose any number of exposed players. Put a Wallet from any Guest tile in the Stash of each player you chose.",
+			"effectBehaviors": [],
+			"numPlayer": 5,
+			"imgName": ""
+		},
+		{
+			"name": "Clown",
+			"effectName": "Makeup",
+			"effectDesc": "Choose 2 expose players. Those players exchange identity cards.",
+			"effectBehaviors": [],
+			"numPlayer": 5,
+			"imgName": ""
+		},
+		{
+			"name": "Cop",
+			"effectName": "Handcuffs",
+			"effectDesc": "Place this under any player's identity card. That player loses 1 Wallet from their Stash any time they take the Expose action.",
+			"effectBehaviors": [],
+			"numPlayer": 5,
+			"imgName": ""
+		},
+		{
+			"name": "Dentist",
+			"effectName": "Dental Records",
+			"effectDesc": "Choose a player. If that player is unexposed, they must tell you a row or a column that they currently occupy.",
+			"effectBehaviors": [],
+			"numPlayer": 2,
+			"imgName": ""
+		},
+		{
+			"name": "Engineer",
+			"effectName": "Flashlight",
+			"effectDesc": "Expose any Guest, regardless of its location.",
+			"effectBehaviors": [],
+			"numPlayer": 2,
+			"imgName": ""
+		},
+		{
+			"name": "Farmer",
+			"effectName": "Money Tree",
+			"effectDesc": "Place one Wallet from the Lost & Found on the Farmer and on each Guest tile that surrounds her.",
+			"effectBehaviors": [],
+			"numPlayer": 3,
+			"imgName": ""
+		},
+		{
+			"name": "Firefighter",
+			"effectName": "Fire Hose",
+			"effectDesc": "Rearrange the Guest tiles in one row or column any way you choose.",
+			"effectBehaviors": [],
+			"numPlayer": 2,
+			"imgName": ""
+		},
+		{
+			"name": "Janitor",
+			"effectName": "Trash Can",
+			"effectDesc": "Choose any number of exposed Guest tiles. Move 1 Wallet from each of those tiles to the Janitor.",
+			"effectBehaviors": [],
+			"numPlayer": 3,
+			"imgName": ""
+		},
+		{
+			"name": "Judge",
+			"effectName": "Gavel",
+			"effectDesc": "Choose any number of Marks and put them in the Discard pile.",
+			"effectBehaviors": [],
+			"numPlayer": 5,
+			"imgName": ""
+		},
+		{
+			"name": "Lawyer",
+			"effectName": "Insurance Policy",
+			"effectDesc": "Give each expose Guest tile 1 Wallet from the Lost & Found.",
+			"effectBehaviors": [],
+			"numPlayer": 2,
+			"imgName": ""
+		},
+		{
+			"name": "Locksmith",
+			"effectName": "Lock Pick",
+			"effectDesc": "Choose any 2 Wallets from any Guest tile(s) and give them to the Locksmith.",
+			"effectBehaviors": [],
+			"numPlayer": 2,
+			"imgName": ""
+		},
+		{
+			"name": "Magician",
+			"effectName": "Smoke Bomb",
+			"effectDesc": "Immediately take the Move action.",
+			"effectBehaviors": [],
+			"numPlayer": 2,
+			"imgName": ""
+		},
+		{
+			"name": "Mayor",
+			"effectName": "VIP List",
+			"effectDesc": "Draw 3 Identity cards, view them, and put them on the bottom of the deck.",
+			"effectBehaviors": [],
+			"numPlayer": 2,
+			"imgName": ""
+		},
+		{
+			"name": "Mechanic",
+			"effectName": "Cargo Pants",
+			"effectDesc": "Immediately take an additional Steal action.",
+			"effectBehaviors": [],
+			"numPlayer": 2,
+			"imgName": ""
+		},
+		{
+			"name": "Nanny",
+			"effectName": "Diaper Bag",
+			"effectDesc": "Take 1 Wallet from any Guest tile and put it in your Stash. Take any remaining Wallets from that Guest tile and put them in the Lost & Found.",
+			"effectBehaviors": [],
+			"numPlayer": 3,
+			"imgName": ""
+		},
+		{
+			"name": "Nurse",
+			"effectName": "Medicine",
+			"effectDesc": "Choose up to 4 Guest tiles. Exchange the location of each of those Guest tiles with a guest tile surrounding the Nurse.",
+			"effectBehaviors": [],
+			"numPlayer": 3,
+			"imgName": ""
+		},
+		{
+			"name": "Panhandler",
+			"effectName": "Donation Cup",
+			"effectDesc": "Each other player takes 1 Wallet from their Stash and puts it on the Panhandler.",
+			"effectBehaviors": [],
+			"numPlayer": 5,
+			"imgName": ""
+		},
+		{
+			"name": "Paramedic",
+			"effectName": "Stretcher",
+			"effectDesc": "Choose a row or column. Add 1 Wallet from the Lost & Found to each Guest tile in that row or column.",
+			"effectBehaviors": [],
+			"numPlayer": 2,
+			"imgName": ""
+		},
+		{
+			"name": "Physicist",
+			"effectName": "Teleporter",
+			"effectDesc": "Exchange the location of any one Guest tile with the location of any other Guest tile.",
+			"effectBehaviors": [],
+			"numPlayer": 2,
+			"imgName": ""
+		},
+		{
+			"name": "Pilot",
+			"effectName": "Bomber Jacket",
+			"effectDesc": "Place this under your Identity card. Before the start of each of your turns, you may exchange the location of the Pilot with any other Guest tile.",
+			"effectBehaviors": [],
+			"numPlayer": 3,
+			"imgName": ""
+		},
+		{
+			"name": "Puppeteer",
+			"effectName": "Cat Puppet",
+			"effectDesc": "Take 1 Wallet from any Guest tile and put it in you Stash.",
+			"effectBehaviors": [],
+			"numPlayer": 5,
+			"imgName": ""
+		},
+		{
+			"name": "Realtor",
+			"effectName": "Down Payment",
+			"effectDesc": "Take 2 Wallets from any player's Stash and put them in any player's Stash other than your own.",
+			"effectBehaviors": [],
+			"numPlayer": 5,
+			"imgName": ""
+		},
+		{
+			"name": "Senator",
+			"effectName": "Signature",
+			"effectDesc": "Each player whose Guest tile surrounds the Senator must take 1 Wallet from the Lost & Found and put it in their Stash.",
+			"effectBehaviors": [],
+			"numPlayer": 3,
+			"imgName": ""
+		},
+		{
+			"name": "Server",
+			"effectName": "Tip",
+			"effectDesc": "Choose a player. That player must take a Move action. Take 1 Wallet from that player's Stash and put it in yours.",
+			"effectBehaviors": [],
+			"numPlayer": 3,
+			"imgName": ""
+		},
+		{
+			"name": "Soldier",
+			"effectName": "Camouflage",
+			"effectDesc": "Place this under your identity card. Before the start of each of your turns, take a free Move action.",
+			"effectBehaviors": [],
+			"numPlayer": 5,
+			"imgName": ""
+		},
+		{
+			"name": "Surgeon",
+			"effectName": "Scalpel",
+			"effectDesc": "Take 1 Wallet from the Lost & Found and put it in your Stash.",
+			"effectBehaviors": [],
+			"numPlayer": 2,
+			"imgName": ""
+		},
+		{
+			"name": "Teacher",
+			"effectName": "Masking Tape",
+			"effectDesc": "Move up to 2 Wallets from one Guest tile to other Guest tiles. You may not move them both to the same Guest tile.",
+			"effectBehaviors": [],
+			"numPlayer": 2,
+			"imgName": ""
+		},
+		{
+			"name": "Undertaker",
+			"effectName": "Jewelry",
+			"effectDesc": "Choose up to 3 Guest tiles. Give each of those Guest tiles 1 Wallet from the Lost & Found.",
+			"effectBehaviors": [],
+			"numPlayer": 2,
+			"imgName": ""
+		},
+		{
+			"name": "Veterinarian",
+			"effectName": "Golden Retriever",
+			"effectDesc": "Take a Wallet from the Stash of either player sitting immediately to your left of right and put it in your Stash.",
+			"effectBehaviors": [],
+			"numPlayer": 3,
+			"imgName": ""
+		},
+		{
+			"name": "Wrestler",
+			"effectName": "Costume",
+			"effectDesc": "Discard your Identity card and draw a new one. If your new Identity is already exposed discard that card and continue drawing until you get on that is unexpected.",
+			"effectBehaviors": [],
+			"numPlayer": 5,
+			"imgName": ""
+		}
+	]
+}
