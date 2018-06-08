@@ -26,10 +26,10 @@ export class ThemeButton extends React.Component {
 			<div>
 				<button onMouseOver={this.playBloop} onMouseDown={this.playClick} onClick={this.props.onClickFunc}>{this.props.stuffing}</button>
 			  <audio ref="bloop" preLoad>
-          <source src="media/BLOOP.mp3" />
+          <source src="../media/BLOOP.mp3" />
         </audio>
         <audio ref="click" preLoad>
-          <source src="media/CLICK.mp3" />
+          <source src="../media/CLICK.mp3" />
         </audio>
       </div>
 		);
