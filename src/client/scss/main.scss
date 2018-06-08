@@ -1,0 +1,11 @@
+@import "palette";
+
+body {
+  background: $light-blue;
+  color: $dark-blue;
+  text-align: center;
+}
+
+button{
+  outline: none;
+}

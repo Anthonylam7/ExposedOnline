@@ -1,0 +1,13 @@
+button{
+  font-size: 50px;
+  font-family: 'Indie Flower', cursive;
+  -webkit-transition-duration: 0.2s; /* Safari */
+  transition-duration: 0.2s;
+  cursor: pointer;
+  border-radius: 15px 50px;
+  box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24), 0 9px 15px 0 rgba(0,0,0,0.19);
+}
+
+button:active {
+  box-shadow: 0 5px 7px 0 rgba(0,0,0,0.24);
+}

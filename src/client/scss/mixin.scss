@@ -1,0 +1,12 @@
+@import "palette";
+
+@mixin buttonStyle($color1, $color2, $radius, $translateY:3px) {
+  border: $radius $color1 solid;
+  background-color: $color2;
+
+  &:active {
+    border: $radius $color2 solid;
+    background-color: $color1;
+    transform: translateY($translateY);
+  }
+}

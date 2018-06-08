@@ -1,0 +1,10 @@
+@import "palette";
+
+.logo {
+  font-family: 'Luckiest Guy', cursive;
+  -webkit-text-stroke: 5px $dark-blue;
+  font-size: 100px;
+  color: $yellow;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
