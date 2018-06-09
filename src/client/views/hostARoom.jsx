@@ -12,27 +12,27 @@ export class HostARoom extends React.Component {
 
   render() {
   	return (
-  		<div class="hostARoom">
-  			<div class="a">
+  		<div className="hostARoom">
+  			<div className="a">
           <h1>Share this room ID with your friends</h1>
         </div>
 
-        <div class="b">
+        <div className="b">
           <CustomInput text={this.props.roomId} isDisabled={true}/>
         </div>
 
-        <div class="c">
+        <div className="c">
         <CopyToClipboard text={this.props.roomId}>
-          <ThemeButton class="copyText" stuffing={<img src="media/copy-content.png" />} />
+          <span><ThemeButton stuffing={<img src="media/copy-content.png" />} /></span>
         </CopyToClipboard>
         </div>
 
-        <div class="d">
+        <div className="d">
           <p>{this.props.host} is hosting!<br />...</p>
         </div>
 
-        <div class="e"><ThemeButton stuffing="Start Game" /></div>
-        <div class="f"><ThemeButton stuffing="Cancel Room" /></div>
+        <div className="e"><ThemeButton stuffing="Start Game" /></div>
+        <div className="f"><ThemeButton stuffing="Cancel Room" /></div>
 	    </div>
     );
   }

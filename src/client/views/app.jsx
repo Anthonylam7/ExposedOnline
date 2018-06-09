@@ -23,7 +23,7 @@ export class App extends React.Component {
 	render() {
 		return (
 			<HashRouter>
-				<div class="appFrame">
+				<div className="appFrame">
           <Route path="/enterName" render={(props)=> <EnterName onChange={this.changeName} name={this.state.name} />}/>
           <Route path="/menu" render={(props)=> <Menu name={this.state.name} />}/>
           <Route path="/hostARoom" render={(props)=> <HostARoom host={this.state.name} roomId={this.state.roomId}/>}/>

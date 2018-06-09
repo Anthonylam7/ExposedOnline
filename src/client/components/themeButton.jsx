@@ -23,7 +23,7 @@ export class ThemeButton extends React.Component {
 
 	render(){
 		return (
-			<div>
+			<div className="themeButton">
 				<button onMouseOver={this.playBloop} onMouseDown={this.playClick} onClick={this.props.onClickFunc}>{this.props.stuffing}</button>
 			  <audio ref="bloop" preLoad>
           <source src="../media/BLOOP.mp3" />

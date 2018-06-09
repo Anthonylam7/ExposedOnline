@@ -14,7 +14,7 @@ export class Logo extends React.Component {
 			this.text=this.props.text;
 		}
 		return (
-			<h1 class="logo">{this.text}</h1>
+			<h1 className="logo">{this.text}</h1>
 		);
 	}
 }
