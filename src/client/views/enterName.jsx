@@ -11,10 +11,10 @@ export class EnterName extends React.Component {
 
   render() {
     return (
-      <div class="enterName">
-		    <div class="logo"><Logo /></div>
-        <div class="customInput"><CustomInput /></div>
-        <div class="themeButton"><ThemeButton stuffing="Go!"/></div>
+      <div className="enterName">
+		    <div className="logo"><Logo /></div>
+        <div className="customInput"><CustomInput /></div>
+        <div className="themeButton"><ThemeButton stuffing="Go!"/></div>
       </div>
     );
   }
